@@ -16,6 +16,9 @@
       : beginIndex 부터 endIndex 직전까지(endIndex 미포함) 자른 문자열을 반환
       ex) "hamburger".substring(4,7) returns "urg"
 
+    #public static String valueOf(char[] data)
+      : character 배열을 String 으로 바꿔준다.
+
 
 [Character]
     # public static char toUpperCase(char ch)
@@ -24,3 +27,8 @@
 
     # public static boolean isUpperCase(char ch)
       : 매개변수로 받은 문자가 대문자인지 판별하는 메서드
+
+
+[StringBuilder] java.lang
+    # public StringBuilder reverse()
+      : character 의 순서를 뒤바꾼 다음 StringBuilder 타입으로 반환한다.
