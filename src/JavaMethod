@@ -2,6 +2,20 @@
     # public char[] toCharArray()
       : string 을 char[] 로 변환시키는 메서드
 
+    # public String[] split(String regex)
+      : regex 로 받은 문자열/문자를 기준으로 String 값을 끊어 배열로 저장하는 메서드
+      ex) String str = "This is big pencil";
+          str.split(" ") -> This/is/big/pencil
+
+    #public int indexOf(int ch)
+      : 매개변수로 받은 char 가 문자열에서 처음 등장하는 index 의 값을 반환하며, 없을 경우 -1 반환
+      ex) String str = "Have a nice day";
+          str.indexOf(' ') -> 4
+
+    #public String substring(int beginIndex, int endIndex)
+      : beginIndex 부터 endIndex 직전까지(endIndex 미포함) 자른 문자열을 반환
+      ex) "hamburger".substring(4,7) returns "urg"
+
 
 [Character]
     # public static char toUpperCase(char ch)
