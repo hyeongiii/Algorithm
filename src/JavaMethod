@@ -19,6 +19,10 @@
     #public static String valueOf(char[] data)
       : character 배열을 String 으로 바꿔준다.
 
+    #public int indexOf(int ch)
+      : 문자열 내에서 매개변수로 받은 char 가 처음으로 등장하는 위치의 index 를 반환하는 메서드
+      ex) "stress".indexOf(s) -> 0
+
 
 [Character]
     # public static char toUpperCase(char ch)
