@@ -28,6 +28,10 @@
     # public static boolean isUpperCase(char ch)
       : 매개변수로 받은 문자가 대문자인지 판별하는 메서드
 
+    #public static boolean isAlphabetic(int codePoint)
+      : 매개변수로 받은 특정 Char 이 알파벳인지 아닌지 판별해주는 메서드
+      ex) Character.isAlphabetic(c) -> true
+
 
 [StringBuilder] java.lang
     # public StringBuilder reverse()

@@ -44,6 +44,7 @@ public class 단어뒤집기 {
         return answer;
     }
 
+    // 강사님 풀이 2
     public static ArrayList<String> solution2(int n, String[] strings) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : strings) {
