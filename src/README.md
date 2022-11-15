@@ -26,6 +26,8 @@
     # public boolean equalsIgnoreCase(String anotherString)
       : 대소문자를 고려하지 않고 매개변수로 받은 다른 문자열과 같은지 아닌지를 비교하는 메서드
 
+    # public String replaceAll(String regex(정규식), String replacement)
+      : 지정된 정규식과 일치하는 문자열을 지정된 항목으로 대체한다.
 
 [Character]
     # public static boolean isUpperCase(char ch)
