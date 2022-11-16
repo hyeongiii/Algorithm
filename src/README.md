@@ -40,7 +40,15 @@
     # public static char toUpperCase(char ch)  
     # public static char toLowerCase(char ch)  
       : 매개변수로 받은 소문자(대문자)를 대문자(소문자)로 변환
+    
+    # public static boolean isDigit(char ch)
+      public static boolean isDigit(int codePoint)
+      : 매개변수로 받은 char/int 가 숫자인지 판별하는 메서드 
 
-[StringBuilder] java.lang
+[Integer]
+    # public static int parseInt(String s)
+      : 문자열을 숫자로 바꿔주는 메서드
+
+[StringBuilder] java.lang  
     # public StringBuilder reverse()
       : character 의 순서를 뒤바꾼 다음 StringBuilder 타입으로 반환한다.
