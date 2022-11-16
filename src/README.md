@@ -49,6 +49,11 @@
     # public static int parseInt(String s)
       : 문자열을 숫자로 바꿔주는 메서드
 
+[Math]
+    # public static int min(int a, int b)
+      : 매개변수로 받은 두 값 중 더 작은 값을 반환하는 메서드
+      ex) Math.min(1, 5) -> 1
+
 [StringBuilder] java.lang  
     # public StringBuilder reverse()
       : character 의 순서를 뒤바꾼 다음 StringBuilder 타입으로 반환한다.
