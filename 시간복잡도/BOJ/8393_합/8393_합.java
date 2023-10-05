@@ -11,7 +11,7 @@ public class Main {
         n = scan.nextInt();
     }
 
-    // 시간 복잡도 O(n)
+    // 시간 복잡도 : O(n)
     static int sum(int num) {
         for (int i = 1; i < num + 1; i++) {
             answer += i;
@@ -19,9 +19,9 @@ public class Main {
         return answer;
     }
 
-    // 시간 복잡도 O(1)
+    // 시간 복잡도 : O(1)
     static int quickSum(int num) {
-        return (n * (n + 1)) / 2
+        return (n * (n + 1)) / 2;
     }
 
     public static void main(String[] args) {
